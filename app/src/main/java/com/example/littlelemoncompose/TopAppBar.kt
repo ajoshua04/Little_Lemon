@@ -28,6 +28,7 @@ fun TopAppBar(scaffoldState : ScaffoldState? = null, scope: CoroutineScope? = nu
         IconButton(onClick = { /*TODO*/ }) {
             Image(painter = painterResource(id = R.drawable.basket), contentDescription ="Cart" , modifier = Modifier.size(45.dp))
         }
+
     }
 }
 
